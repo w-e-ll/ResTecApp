@@ -22,7 +22,7 @@ def group_addresses(addresses):
     for address in addresses:
         # not English lang
         if not bool(address.isascii()):
-            translated_address = GoogleTranslator(source='auto', target='en').translate(address)
+            translated_address = GoogleTranslator(source="auto", target="en").translate(address)
             matched_eng = difflib.get_close_matches(translated_address, addresses)
             # translated text grouping
             if matched_eng and tuple(matched_eng) in grouped_addresses:
