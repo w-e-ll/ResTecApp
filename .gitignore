@@ -108,3 +108,6 @@ venv.bak/
 .vscode/
 *.code-workspace
 *hdi_settings.json
+
+# Pycharm
+.idea
