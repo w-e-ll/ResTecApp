@@ -45,7 +45,7 @@ Project layout
 
 Here's the directory structure of the ResTecApp project::
     
-    test_task
+    ResTecApp
         ├── static
         │     ├── style.css
         ├── templates
