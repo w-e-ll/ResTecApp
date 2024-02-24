@@ -1,0 +1,4 @@
+Flask
+deep_translator
+pytest
+coverage
