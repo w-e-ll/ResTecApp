@@ -68,14 +68,14 @@ Installation
 ------------
    
     - Made on Linux. Python3.10
-    $ 1. git clone https://github.com/w-e-ll/ResTecApp.git
-    $ 2. cd ResTecApp 
-    $ 3 pip install --upgrade pip
-    $ 4. python3 -m venv venv          (Unix/macOS) 
-    $ 4. py -m venv venv               (Windows)
-    $ 5. source .venv/bin/activate --> (Unix/macOS)
-    $ 5. venv\Scripts\activate     --> (Windows)
-    $ 6. pip install -r requirements.txt
+    1. $ git clone https://github.com/w-e-ll/ResTecApp.git
+    2. $ cd ResTecApp 
+    3. $ pip install --upgrade pip
+    4. $ python3 -m venv venv          (Unix/macOS) 
+    4. $ py -m venv venv               (Windows)
+    5. $ source .venv/bin/activate --> (Unix/macOS)
+    5. $ venv\Scripts\activate     --> (Windows)
+    6. $ pip install -r requirements.txt
 
 
 Usage
