@@ -66,7 +66,8 @@ Here's the directory structure of the ResTecApp project::
 
 Installation
 ------------
-
+   
+    - Made on Linux. Python3.10
     $ 1. git clone https://github.com/w-e-ll/ResTecApp.git
     $ 2. cd ResTecApp 
     $ 3 pip install --upgrade pip
