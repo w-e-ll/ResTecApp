@@ -87,5 +87,5 @@ Usage
     $ python main.py run
     $ http://127.0.0.1:5000/
 
-    P.S. I have provided encoding='utf-8-sig' in main.py line 45 because of Windows file encoding. 
-         For me it breaks. So if you will have problems try to change to encoding='utf-8'!
+    P.S. I have provided encoding='utf-8-sig' in main.py line 45 because of Windows input file encoding (ResTecDevTask-sample_input_v1.csv). 
+         For me it breaks. So if you will have problems try to change to encoding='utf-8' in main.py line 45! "stream = codecs.iterdecode(file.stream, 'utf-8-sig')"
